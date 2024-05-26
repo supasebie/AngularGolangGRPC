@@ -7,4 +7,12 @@
     </li>
     }
   </ul>
+  <div>
+    @if(selectedUser())
+    {
+      <app-tasks [selectedUser]="selectedUser()" [userTasks]="userTasks()"></app-tasks>
+    } @else {
+      <p>Selet a user to view their tasks.</p>
+    }
+  </div>
 </main>

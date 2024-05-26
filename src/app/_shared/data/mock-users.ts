@@ -64,7 +64,5 @@ export const mock_users: User[] = [
     isOnline: true,
     isSelected: false
   }
-
-
 ];
 
