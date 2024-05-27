@@ -3,5 +3,4 @@ export type User = {
     name: string;
     imageSrc: string;
     isOnline: boolean;
-    isSelected: boolean;
 }

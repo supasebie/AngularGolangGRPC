@@ -3,7 +3,7 @@
     border: 2px solid #3c3c3c;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    width: 99%; /* Adjust to fit two cards per row */
+    width: 95%; /* Adjust to fit two cards per row */
     margin: 5px;
     padding: 10px;
     box-sizing: border-box;
@@ -81,6 +81,7 @@ button {
 .delete-btn:hover {
   background-color: #7182B5;
 }
+
 /* article {
     padding: 1rem;
     color: #25113d;

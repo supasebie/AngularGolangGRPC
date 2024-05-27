@@ -2,9 +2,11 @@
     <header>
         <h2>{{selectedUser()?.name}}'s Task list</h2>
     </header>
-    <menu>
-        <button>Add Task</button>
-    </menu>
+    <div class="menu">
+        <button class="menu-button">Add Task</button>
+        <button class="menu-button">Filter</button>
+        <select name="filter" id="filter">Filter</select>
+    </div>
 </section>
 
 <section id="task-list">

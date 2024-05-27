@@ -25,8 +25,6 @@ export class AppComponent {
   handleUserSelected(user: User){
     this.selectedUser = signal(user);
     this.userTasks = signal(this.#userService.getUserTasks(user.id));
-    console.log(this.userTasks())
-    console.log(this.selectedUser())
   }
 
 }

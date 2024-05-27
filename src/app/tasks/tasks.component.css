@@ -26,7 +26,7 @@
     padding: 0;
   }
   
-  menu button {
+  .menu-button {
     font: inherit;
     cursor: pointer;
     background-color: #9965dd;
@@ -36,9 +36,13 @@
     font-size: 0.9rem;
   }
   
-  menu button:hover,
-  menu button:active {
+  .menu-button:hover,
+  .menu-button:active {
     background-color: #a565dd
+  }
+
+  .menu-button {
+    margin: 5px;
   }
 
   .task-container{
